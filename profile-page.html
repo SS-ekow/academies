@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+           padding: 0;
+           margin: 0;
+           box-sizing: border-box;
+           list-style: none;
+           text-decoration: none;
+       }
+   
+       body{
+           background: rgba(1, 179, 239, 0.1);
+           font-size: 16px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           padding: 1rem 3rem;
+           
+   
+       }
+
+       nav{
+           width: 100%;
+           height: 60px;
+           background: white;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           border-radius: 24px;
+           padding: 0 1rem;
+
+       }
+
+       .nav-links ul{
+           
+           display: flex;
+           gap: 24px;
+           
+       }
+    main{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+       .profile-container{
+        width: 30vw;
+        background: white;
+        padding: 1rem;
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 24px;
+
+       }
+
+       .avi{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid white;
+        background: greenyellow;
+        margin: -70px auto 16px auto;
+       }
+
+       .profile-info{
+        width: 100%;
+        height: 70%;
+        /* background: yellow; */
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+       }
+
+       .sub-type{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       }
+
+       .type{
+        padding: 0.5rem 1rem;
+        background: orangered;
+        border-radius: 32px;
+        color: white;
+       }
+
+       .edit{
+        padding: 0.5rem 1.5rem;
+        border: none;
+        border-radius: 16px;
+        background: #01b3ef;
+        color: white;
+        font-size: 24px;
+        box-shadow: 8px 8px 2px 0 rgba(0, 0, 0, 0.25);
+       }
+       
+   </style>
+
+   <header>
+       <nav>
+           <div class="logo"></div>
+           <div class="nav-links">
+                <ul>
+                    <li><a href="./dash2.html">Home</a></li>
+                    <li><a href="./dashboard.html">Dashboard</a></li>
+                    <li><a href="./subscriptions.html">Subscriptions</a></li>
+                    <li><a href="./profile-page.html">Profile</a></li>
+                </ul>
+           </div>
+           <div class="profile">
+               <div class="icon"></div>
+               <select name="options" id="">
+                   
+                   <option value="">Edit Profile</option>
+                   <option value="">Settings</option>
+                   <option value="">Sign Out</option>
+
+               </select>
+           </div>
+       </nav>
+   </header>
+   <main>
+        <div class="profile-container">
+            <div class="avi"></div>
+            <div class="profile-info">
+
+                <h3>Username</h3>
+                <span>example@gmail.com</span>
+                <p><span>Joined:</span> 24 March, 2024</p>
+    
+                <div class="sub-type">
+                    <h3>Subscription type:</h3>
+                    <div class="type">Standard</div>
+                </div>
+    
+                <a href="/edit-profile.html">
+                    <button class="edit">Edit Profile</button>
+                </a>
+            </div>
+
+
+        </div>
+   </main>
+</body>
+</html>

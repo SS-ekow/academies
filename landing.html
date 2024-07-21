@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Academies</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        body{
+            background: rgba(1, 179, 239, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 16px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .container{
+            max-width: 1800px;
+            width: 90vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        
+        header{
+            /* background: hotpink; */
+            height: 80px;
+            display:flex;
+            
+        }
+       
+
+        nav{
+            width: 90%;            
+            margin: auto auto;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .nav-links{
+            width: 50%;
+            /* background: green; */
+        }
+
+        .links{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sign-up-button{
+            padding: 8px 24px;
+            background: #7DC353;
+            border-radius: 32px;
+        }
+
+
+        section{
+            height: 100vh;
+            width: 100%;
+            padding-top: 24px;
+        }
+
+        .about{
+            background: rgba(1, 179, 239, 0.4)
+        }
+
+        .cards{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .card{
+            background: #01B3EF;
+            padding: 4px;
+            border-radius: 16px;
+            box-shadow: 8px 8px 2px 0 rgba(0, 0, 0, 0.25);
+            
+        }
+
+        .feature-container{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            
+        }
+
+        .feature{
+            display: flex;
+            border: 1px solid blue;
+            padding: 8px;
+        }
+        .feature-content{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card-container{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer{
+            background: rgb(0, 0, 0);
+            color: white;
+            padding: 10px 32px;
+        }
+
+        /* .top-part{
+            display: flex;
+            justify-content: space-between;
+        } */
+        
+
+
+    </style>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="" alt="" class="logo-image">
+                <span class="allacademies">All Academies</span>
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>                  
+                </ul>
+            </div>
+            <div class="sign-up-button">
+                Sign Up
+            </div>
+            
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+
+            <div class="banner">
+    
+            </div>
+            <div class="try-it"></div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>What does All Academies offer?</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="" alt="" class="card-icon">
+                    <span class="card-title">Comprehensive Resources</span>
+                    <p class="card-text"> Gain access to a vast array of high-quality reading materials covering all subjects relevant to your academic journey. Whether you're a primary school student or a junior high school learner, All Academies ensures you have the resources you need to excel.</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="" class="card-icon">
+                    <span class="card-title">Effortless Assessment Tools</span>
+                    <p class="card-text"> Measure your progress effortlessly with our user-friendly assessment tools. From quick quizzes to in-depth written tests, All Academies provides a variety of assessment options to suit every learning style.</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="" class="card-icon">
+                    <span class="card-title">Future Expansion</span>
+                    <p class="card-text">While we currently cater to Primary and Junior High School learners, our commitment to excellence means that coverage for Senior High School students is on the horizon. Stay tuned as we continue to expand our offerings to meet the evolving needs of learners across all educational levels.</p>
+                </div>
+            </div>
+
+            <div class="description">
+                <p>Welcome to All Academies, the premier Learning and Assessment Application Platform(LAAPP) tailored for students ranging from pre-school to senior high school, including technical and vocational education. Our mission is to provide students with accessible and affordable reading materials across all subjects while offering a seamless medium for assessing their performance through quizzes, tests, assignments, and examinations. Join us as we empower learners to reach their full potential through accessible resources and innovative assessment solutions. Start your educational journey with All Academies today!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="evidence">
+        <div class="container">
+
+        </div>
+
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Everything you need to study online</h2>
+            <p>
+                We have got all the features that will help you learn virtually. Have more confidence in your hardwork by quizzing yourself.
+            </p>
+
+            <div class="feature-container">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-title">Simplicity</span>
+                        <span class="feature-text">Easy to maneuver interface with high speed loading to meet your demand within a short time.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-title">Flexibility</span>
+                        <span class="feature-text">It gives you accessibility on an operating system (iOS, Android and Windows) and any smart phone or tablet.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-title">Security</span>
+                        <span class="feature-text">Your personal information is safe from intruders</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-title">Updates</span>
+                        <span class="feature-text">Regular update of content to keep pace with changing educational curricula, scientific innovations or customers demand.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Our Prices</h2>
+
+            <p>Simple no-trick pricing with great discount for your money. The more months you pay, the more discount applied.</p>
+            <div class="pricing-card-container">
+                <div class="pricing-card">
+                    <span class="type">
+                        Basic
+                    </span>
+                    <span class="price">GHS 15 <span>/subject</span></span>
+                    <p>Perfect for prolific learners and anyone needing just a short time.</p>
+                    <hr>
+                    <ul>
+                        <li>All Features</li>
+                        <li>Free Updates</li>
+                        <li>3 month access</li>
+                    </ul>
+    
+                    <div class="choose">
+                        <button>Choose Basic</button>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <span class="type">
+                        Basic
+                    </span>
+                    <span class="price">GHS 15 <span>/subject</span></span>
+                    <p>Perfect for prolific learners and anyone needing just a short time.</p>
+                    <hr>
+                    <ul>
+                        <li>All Features</li>
+                        <li>Free Updates</li>
+                        <li>3 month access</li>
+                    </ul>
+    
+                    <div class="choose">
+                        <button>Choose Basic</button>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <span class="type">
+                        Basic
+                    </span>
+                    <span class="price">GHS 15 <span>/subject</span></span>
+                    <p>Perfect for prolific learners and anyone needing just a short time.</p>
+                    <hr>
+                    <ul>
+                        <li>All Features</li>
+                        <li>Free Updates</li>
+                        <li>3 month access</li>
+                    </ul>
+    
+                    <div class="choose">
+                        <button>Choose Basic</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+
+            <h2>Frequently Asked Questions</h2>
+    
+            <select name="" id="">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+        </div>
+        </select>
+    </section>
+
+    <footer>
+        
+        <div class="top-half">
+            <div class="logo">All Academies</div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>                  
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+            <span>2024 All Academies. All Rights Reserved</span>
+        
+    </footer>
+    
+</body>
+</html>

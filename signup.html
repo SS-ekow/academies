@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        body{
+            background: rgba(1, 179, 239, 0.1);
+            font-size: 16px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+        }
+
+        .col-1{
+            background: rgba(1, 179, 239, 0.1);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .col-2{
+            background: green;
+            height: 100vh;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            height: 480px;
+            width: 430px;
+            background: white;
+            padding: 1rem;
+            border: 1px solid grey;
+            border-radius: 16px;
+        }
+
+        .titles{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .container div{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            
+           
+        }
+
+        input{
+            height: 40px;
+            border: 1px solid #E1FFC3;
+            border-radius: 16px;
+            font-size: 1.3rem;
+            padding-left: 8px;
+        }
+
+       
+
+
+
+    </style>
+
+    <div class="col-1">
+        <div class="container">
+            <div class="titles">
+                <div>Sign Up</div>
+                <div>Sign In</div>
+            </div>
+            <div class="content">
+                <form action="">
+                    <div>
+                        <label for="">Name</label>
+                        <input type="text" >
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password">
+                    </div>
+                    <div>
+                        <label for="">Confirm Password</label>
+                        <input type="password">
+                    </div>
+                </form>
+
+                <p>Already have an account? <a href="#">Sign In</a></p>
+                <div class="create">
+                    Create my account
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div>
+            <h1>Generate tests and Quizzes with ease</h1>
+        </div>
+        <div>Get started with All Academies</div>
+    </div>
+    
+</body>
+</html>
